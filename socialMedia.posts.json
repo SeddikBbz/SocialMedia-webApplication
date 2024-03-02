@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "65ddd46e1932384adc087aad"
+  },
+  "userId": {
+    "$oid": "65ddd10c1932384adc087aa7"
+  },
+  "content": "student post!",
+  "likes": [
+    {
+      "$oid": "65ddd10c1932384adc087aa7"
+    },
+    {
+      "$oid": "65ddd10c1932384adc087aa7"
+    }
+  ],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "65ddd10c1932384adc087aa7"
+      },
+      "postId": {
+        "$oid": "65ddd46e1932384adc087aad"
+      },
+      "content": "student comment!",
+      "createdAt": {
+        "$date": "2024-02-27T12:25:05.000Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-27T12:24:14.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ddd48d1932384adc087aae"
+  },
+  "userId": {
+    "$oid": "65ddd10c1932384adc087aa7"
+  },
+  "content": "second post!",
+  "likes": [
+    {
+      "$oid": "65ddd10c1932384adc087aa7"
+    }
+  ],
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-02-27T12:24:45.000Z"
+  }
+}]

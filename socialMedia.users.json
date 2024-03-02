@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "65ddd10c1932384adc087aa7"
+  },
+  "username": "seddik babaz",
+  "fullName": "Seddik Babaz",
+  "email": "sed.dev16@gmail.com",
+  "password": "$2y$10$rS/TlQ04Y34T6MozDb9PJOACXkKOxutuzoDCrFEDkZAVc3ac//c06",
+  "birthdate": "2024-02-27",
+  "location": "ghardaia",
+  "bio": "student",
+  "friends": [],
+  "posts": [
+    {
+      "userId": {
+        "$oid": "65ddd10c1932384adc087aa7"
+      },
+      "content": "student post!",
+      "likes": [],
+      "comments": [],
+      "createdAt": {
+        "$date": "2024-02-27T12:24:14.000Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "65ddd10c1932384adc087aa7"
+      },
+      "content": "second post!",
+      "likes": [],
+      "comments": [],
+      "createdAt": {
+        "$date": "2024-02-27T12:24:45.000Z"
+      }
+    }
+  ],
+  "createdAt": "2024-02-27T13:09:48Z",
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "65ddd3d81932384adc087aab"
+  },
+  "username": "user2",
+  "fullName": "Jane Smith",
+  "email": "user2@example.com",
+  "password": "$2y$10$HkkkVe7EVGW78IUzfl4nyuCg9oqx2RZirKi6Z7E/dPsptQE/9.YZO",
+  "birthdate": "1995-05-15",
+  "location": "Los Angeles",
+  "bio": "Another user bio",
+  "friends": [],
+  "posts": [],
+  "createdAt": "2024-02-27T13:21:45Z",
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "65ddd3d91932384adc087aac"
+  },
+  "username": "user3",
+  "fullName": "Michael Johnson",
+  "email": "user3@example.com",
+  "password": "$2y$10$t5.RCl7oB43akT397.cBBOv/qc5iLKfDy2HBqVGrgJ5N1DBDD.Mzu",
+  "birthdate": "1988-09-30",
+  "location": "Chicago",
+  "bio": "Yet another user bio",
+  "friends": [],
+  "posts": [],
+  "createdAt": "2024-02-27T13:21:45Z",
+  "role": "user"
+}]

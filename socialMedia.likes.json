@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "65ddd4b91932384adc087ab0"
+  },
+  "postId": {
+    "$oid": "65ddd46e1932384adc087aad"
+  },
+  "userId": {
+    "$oid": "65ddd10c1932384adc087aa7"
+  },
+  "createdAt": {
+    "$date": "2024-02-27T12:25:29.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ddd4bb1932384adc087ab1"
+  },
+  "postId": {
+    "$oid": "65ddd48d1932384adc087aae"
+  },
+  "userId": {
+    "$oid": "65ddd10c1932384adc087aa7"
+  },
+  "createdAt": {
+    "$date": "2024-02-27T12:25:31.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ddd4c41932384adc087ab2"
+  },
+  "postId": {
+    "$oid": "65ddd46e1932384adc087aad"
+  },
+  "userId": {
+    "$oid": "65ddd10c1932384adc087aa7"
+  },
+  "createdAt": {
+    "$date": "2024-02-27T12:25:40.000Z"
+  }
+}]
